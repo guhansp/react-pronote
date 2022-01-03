@@ -1,0 +1,50 @@
+*
+{
+    background-color: #3867d6;
+
+}
+
+.container 
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1.5em 0;
+}
+
+.container div {
+    min-width: 500px;
+    min-height: 450px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+textarea {
+    min-width: 600px;
+    min-height: inherit;
+    border: 2px solid #464646;
+    color: black;
+    font-size: 40px;
+    background-color: rgb(255, 253, 253);
+}
+
+.output-text {
+    background-color: #464646;
+    border: 1px solid #464646;
+    font-size: 40px;
+    box-shadow: 10px 10px 20px 1px #3d3d3d;
+}
+
+#reset-btn {
+    width: 30px;
+    height: 30px;
+    display: inline-block;    
+    border-radius: 100%;
+
+}
+
+
